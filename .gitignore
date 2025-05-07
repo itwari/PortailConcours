@@ -1,0 +1,18 @@
+# Ignorer le dossier node_modules
+node_modules/
+
+# Ignorer les fichiers de build
+dist/
+build/
+
+# Ignorer les fichiers de logs
+logs/
+*.log
+
+# Ignorer les fichiers de configuration d'IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Ignorer le fichier .env (éviter de partager des informations sensibles)
+.env
